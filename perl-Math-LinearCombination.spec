@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Math
-%define		pnam	LinearCombination
+%define	pdir	Math
+%define	pnam	LinearCombination
 Summary:	Math::LinearCombination - sum of variables with a numerical coefficient
 Summary(pl):	Math::LinearCombination - suma zmiennych ze wspó³czynnikami liczbowymi
 Name:		perl-Math-LinearCombination
