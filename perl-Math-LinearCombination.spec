@@ -33,7 +33,7 @@ also supported. The numerical coefficients a_i and variables x_i are
 stored as pairs in an internal data structure and should not be
 manipulated directly. All access and manipulation should be performed
 through the methods.
-  
+
 %description -l pl
 Math::LinearCombination to modu³ s³u¿±cy do reprezentowania
 matematycznych kombinacji liniowych zmiennych, czyli wyra¿eñ w postaci
@@ -52,7 +52,7 @@ udostêpnione metody.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %{!?_without_tests:%{__make} test}
