@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	LinearCombination
 Summary:	Math::LinearCombination - sum of variables with a numerical coefficient
-Summary(pl):	Math::LinearCombination - suma zmiennych ze wspó³czynnikami liczbowymi
+Summary(pl.UTF-8):   Math::LinearCombination - suma zmiennych ze wspÃ³Å‚czynnikami liczbowymi
 Name:		perl-Math-LinearCombination
 Version:	0.03
 Release:	2
@@ -35,18 +35,18 @@ stored as pairs in an internal data structure and should not be
 manipulated directly. All access and manipulation should be performed
 through the methods.
 
-%description -l pl
-Math::LinearCombination to modu³ s³u¿±cy do reprezentowania
-matematycznych kombinacji liniowych zmiennych, czyli wyra¿eñ w postaci
+%description -l pl.UTF-8
+Math::LinearCombination to moduÅ‚ sÅ‚uÅ¼Ä…cy do reprezentowania
+matematycznych kombinacji liniowych zmiennych, czyli wyraÅ¼eÅ„ w postaci
 
   a1 * x1 + a2 * x2 + ... + an * xn
 
 gdzie x1, x2, ... xn to zmienne, a a1, a2, ... an to liczbowe
-wspó³czynniki. Obs³ugiwane jest tak¿e obliczanie warto¶ci i
-manipulowanie kombinacjami liniowymi. Wspó³czynniki liczbowe a_i oraz
-zmienne x_i s± zapisywane jako pary w wewnêtrznej strukturze danych i
-nie powinny byæ modyfikowane ani odczytywane bezpo¶rednio, lecz przez
-udostêpnione metody.
+wspÃ³Å‚czynniki. ObsÅ‚ugiwane jest takÅ¼e obliczanie wartoÅ›ci i
+manipulowanie kombinacjami liniowymi. WspÃ³Å‚czynniki liczbowe a_i oraz
+zmienne x_i sÄ… zapisywane jako pary w wewnÄ™trznej strukturze danych i
+nie powinny byÄ‡ modyfikowane ani odczytywane bezpoÅ›rednio, lecz przez
+udostÄ™pnione metody.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
