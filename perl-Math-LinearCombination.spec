@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	LinearCombination
 Summary:	Math::LinearCombination - sum of variables with a numerical coefficient
-Summary(pl.UTF-8):   Math::LinearCombination - suma zmiennych ze współczynnikami liczbowymi
+Summary(pl.UTF-8):	Math::LinearCombination - suma zmiennych ze współczynnikami liczbowymi
 Name:		perl-Math-LinearCombination
 Version:	0.03
 Release:	2
