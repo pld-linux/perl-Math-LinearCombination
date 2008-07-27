@@ -9,7 +9,7 @@ Summary:	Math::LinearCombination - sum of variables with a numerical coefficient
 Summary(pl.UTF-8):	Math::LinearCombination - suma zmiennych ze współczynnikami liczbowymi
 Name:		perl-Math-LinearCombination
 Version:	0.03
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
